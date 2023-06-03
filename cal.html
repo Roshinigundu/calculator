@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="style.css"href="style.css">
+    <script src="calculator.js"></script>
+    <title>calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-md-2 col-lg-2 "></div>
+            <div class="col col-12 col-md-8 col-lg-8"></div>
+            <h1>calculator</h1>
+            <table class="table">
+                <tr>
+                    <td>first number</td>
+                    <td><input type="number"class="form control"id="no1"></td>
+                </tr>
+                <tr>
+                    <td>second number</td>
+                    <td><input type="number"class="form control"id="no2"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg" onclick="add()">+</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg" onclick="sub()">-</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg" onclick="mul()">*</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg" onclick="div()">/</button>
+                    </td>
+                </tr>
+            </table>
+            <h3>result is<span id="result"></span></h3>
+        </div>
+        <div class="col col-12 col-md-2 col-lg-2"></div>
+    </div>
+</body>
+</html>
